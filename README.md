@@ -1,7 +1,3 @@
-Este é um rascunho de um arquivo **`README.md`** completo e tecnicamente rigoroso para o seu repositório `GIDTesteSpringBoot`, focado nas tecnologias especificadas (Java, Spring Boot, Gradle, SQLite).
-
------
-
 # GIDTesteSpringBoot
 
 ## 🛠️ Visão Geral do Projeto
@@ -9,8 +5,6 @@ Este é um rascunho de um arquivo **`README.md`** completo e tecnicamente rigoro
 Este projeto é uma aplicação *backend* desenvolvida com **Spring Boot**, utilizando **Java** como linguagem principal. O objetivo é fornecer uma estrutura de teste/exemplo para o desenvolvimento de serviços RESTful. O projeto emprega **Gradle** como sistema de *build* e utiliza o **SQLite** para persistência de dados local, configurado para facilitar a execução e testes em ambientes de desenvolvimento.
 
 É imperativo que você mantenha a documentação dos *endpoints* e a estrutura de classes alinhada com as funcionalidades reais da aplicação, que aqui não estão detalhadas.
-
-\<hr\>
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -21,8 +15,6 @@ A pilha tecnológica deste repositório é composta por:
   * **Gerenciador de Dependências:** Gradle
   * **Banco de Dados:** SQLite (Configurado via H2/Hibernate para uso com arquivo local)
 
-\<hr\>
-
 ## 📋 Pré-requisitos
 
 Para que a aplicação compile e execute corretamente em seu ambiente, você deve possuir o seguinte instalado:
@@ -30,8 +22,6 @@ Para que a aplicação compile e execute corretamente em seu ambiente, você dev
 1.  **Java Development Kit (JDK):** Versão 21 ou superior.
 2.  **Sistema de Controle de Versão (VCS):** Git.
 3.  **Ferramenta de Linha de Comando:** Acesso a um terminal com suporte a *shell scripts* (`.sh`) para o *wrapper* do Gradle.
-
-\<hr\>
 
 ## 🚀 Configuração e Instalação
 
@@ -63,8 +53,6 @@ Execute o comando do **Gradle** para resolver todas as dependências e compilar 
 
 *(No Windows, você pode precisar usar `gradlew clean build`)*
 
-\<hr\>
-
 ## ▶️ Execução da Aplicação
 
 Após o *build* ser concluído **sem erros**, a aplicação está pronta para ser iniciada.
@@ -87,8 +75,6 @@ java -jar build/libs/GIDTesteSpringBoot-*.jar
 
 A aplicação será iniciada e estará disponível no endereço `http://localhost:8080`, ou na porta especificada na sua configuração do Spring.
 
-\<hr\>
-
 ## 📡 Endpoints da API (Modelo)
 
 **AVISO SEVERO:** Esta seção é **mandatória** para a usabilidade e deve ser detalhada por você para refletir **exatamente** os *endpoints* implementados em seus controladores Spring (`@RestController`).
@@ -103,10 +89,3 @@ O modelo a seguir representa a estrutura esperada para a documentação da sua A
 | `PUT` | `/api/v1/nome-do-recurso/{id}` | Atualiza completamente um recurso existente. |
 | `DELETE` | `/api/v1/nome-do-recurso/{id}` | Remove um recurso específico. |
 
-\<hr\>
-
-## 👤 Contato
-
-Para questões técnicas ou sugestões, entre em contato através do seu perfil no GitHub.
-
-**Autor:** [@duartella](https://www.google.com/search?q=https://github.com/duartella)
